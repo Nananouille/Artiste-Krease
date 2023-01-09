@@ -32,7 +32,13 @@ unity
 
 goal:
 *festival
-*Event
+*Event :
+-
+-
+-
+-
+-
+
 *bar
 *streaming
 *Album
@@ -42,6 +48,8 @@ goal:
 
 
 Defis:
+
+
 
 
 
