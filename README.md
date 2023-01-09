@@ -21,6 +21,8 @@ cookiecollective partie;                  100 nanouilles
 No School festival                        100 nanouilles
 féstival de la creativité numérique.      100 nanouilles
 Solstice Night Stream December 2022       100 nanouilles
+ROUTENOTE POUR LA DISTRIBUTION DE MUSIQUE  100 nanouilles
+
 
 ##tools
 orca
@@ -35,7 +37,7 @@ goal:
 *streaming
 *Album
 *track on soundcloud
-
+*dsp
 Defis:
 
 
