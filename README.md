@@ -10,8 +10,8 @@
 (つ◉益◉)つ
 
 ### Krease
-[![This is an image]())](https://i1.sndcdn.com/avatars-3Iy0eU8EYVTrtadW-II1gkQ-t500x500.jpg)
 
+![This is an image](https://i1.sndcdn.com/avatars-3Iy0eU8EYVTrtadW-II1gkQ-t500x500.jpg)
 
 level  1: 
 Points nanouille: 400 nanouilles
