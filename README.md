@@ -10,7 +10,7 @@
 (つ◉益◉)つ
 
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image]([https://myoctocat.com/assets/images/base-octocat.svg](https://docs.github.com/assets/cb-49261/images/help/writing/image-rendered.png))
 ### Krease
 ![This is an image]([[https://myoctocat.com/assets/images/base-octocat.svg](https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/274332014_5277218398964102_8297495416610704222_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=jyyMRQhAbg0AX_RPU-1&tn=JccsvCW0h8j7PqIG&_nc_ht=scontent-cdt1-1.xx&oh=00_AfD58Z79p7K7lpch6yuhQcd6jr2HDzEfJR1UCBRV4AMrvA&oe=63C25C95)](https://i1.sndcdn.com/avatars-3Iy0eU8EYVTrtadW-II1gkQ-t500x500.jpg))
 
