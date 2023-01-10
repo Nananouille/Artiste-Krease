@@ -25,7 +25,7 @@ ROUTENOTE POUR LA DISTRIBUTION DE MUSIQUE  100 nanouilles
 creation dropBox                           100 nanouilles
 Préparation scéne Twitch                    50 nanouilles
 petit streaming de test                     10 nanouilles
-
+inscription  www.spotify.com                5 nanouilles
 ##tools
 orca
 processing
