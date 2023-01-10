@@ -55,10 +55,16 @@ Defis:
 
 
 
+
+
+
+
 -Log4 09/01/2023
+* https://www.twitch.tv/videos/1702850185
 * being present on many virtual world .
 * https://www.spatial.io/s/s-Home-63bbbcc5f2513ed236ee4247
 * https://www.spatial.io/s/Kreases-Lo-Fi-Room-63bbbd98f2513ed236ee43b9?share=8948516013531468169
+
 
 - Log3 08/01/2023
 * Orca ableton
