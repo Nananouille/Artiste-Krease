@@ -22,7 +22,9 @@ No School festival                        100 nanouilles
 féstival de la creativité numérique.      100 nanouilles
 Solstice Night Stream December 2022       100 nanouilles
 ROUTENOTE POUR LA DISTRIBUTION DE MUSIQUE  100 nanouilles
-
+creation dropBox                           100 nanouilles
+Préparation scéne Twitch                    50 nanouilles
+petit streaming de test                     10 nanouilles
 
 ##tools
 orca
