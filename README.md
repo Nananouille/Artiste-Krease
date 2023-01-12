@@ -57,7 +57,9 @@ Defis:
 
 
 
-
+-log6 12/01/2023
+* creation on veda
+*glsl , detection of sound , video manipulation
 
 -Log4 09/01/2023
 * https://www.twitch.tv/videos/1702850185
