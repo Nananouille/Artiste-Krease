@@ -54,7 +54,8 @@ Defis:
 
 
 
-
+-log7
+*free vsti beatslicer free
 
 
 
