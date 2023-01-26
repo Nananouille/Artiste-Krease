@@ -52,6 +52,9 @@ goal:
 Defis:
 
 
+-log8
+*orca ableton test
+https://youtu.be/8om2uak_FKU
 
 
 -log7
