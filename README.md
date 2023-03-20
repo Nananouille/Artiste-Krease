@@ -51,6 +51,16 @@ goal:
 
 Defis:
 
+log 12: dnb tutorial
+
+https://bedroomproducersblog.com/2021/12/24/drop-designer/
+https://www.modalics.com/products   EoN free
+https://www.edmprod.com/how-to-make-drum-and-bass/
+
+
+
+log 10:
+
 
 -log8
 *orca ableton test
