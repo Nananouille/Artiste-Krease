@@ -50,7 +50,10 @@ goal:
 
 
 Defis:
+log 13 
 
+ py -3.9-64 -m pip install tts
+ 
 log 12: dnb tutorial
 
 https://bedroomproducersblog.com/2021/12/24/drop-designer/
