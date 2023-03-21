@@ -54,6 +54,19 @@ log 13
 
  py -3.9-64 -m pip install tts
  
+  py -3.9-64 -m pip install python-espeak-ng
+  
+  https://www.youtube.com/watch?v=Yglxf2WbkLU 
+  create a python environement     py 3.9-64 -m venv .foldername
+  
+  on windows 
+  
+  scripts\activate
+  
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+  
+  
+ 
 log 12: dnb tutorial
 
 https://bedroomproducersblog.com/2021/12/24/drop-designer/
