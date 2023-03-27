@@ -51,7 +51,8 @@ goal:
 
 Defis:
 log 13 
-
+ py -m venv .
+ 
  py -3.9-64 -m pip install tts
  
   py -3.9-64 -m pip install python-espeak-ng
@@ -66,7 +67,7 @@ log 13
   
   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
   
-  
+   tts-server  --model_name tts_models/en/ljspeech/neural_hmm               --vocoder_name    vocoder_models/en/sam/hifigan_v2
  
 log 12: dnb tutorial
 
