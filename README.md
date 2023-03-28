@@ -50,6 +50,22 @@ goal:
 
 
 Defis:
+
+
+log 1' omniverse 
+
+Set your preferred data path and click ‘Next’. Enter your desired credentials for the Administrator Account and then click ‘Complete Setup’.
+
+Nucleus Workstation will now download and install. There are several ways to verify the installation:
+
+    Click the menu icon next to ‘Local Nucleus Service’ and click ‘Settings’ to bring up System Monitor. Check that all services are listed as ‘Running’
+
+    Click the folder icon next to ‘Local Nucleus Service’ to bring up Omniverse Nucleus Navigator. Log in using the Administrator account
+
+    Connect to System Monitor by navigating to http://localhost:3080 in a browser. Check that all apps are listed as ‘Running’
+
+    Connect to Navigator by navigating to http://localhost:34080 in a browser. Log in using ‘admin’ or ‘omniverse’ for both the username and password
+
 log 13 
  py -m venv .
  
