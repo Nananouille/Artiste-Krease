@@ -53,7 +53,7 @@ Defis:
 
 
 log 1' omniverse 
-
+he Launcher Clean-Up Tool will put the Omniverse Launcher back into a clean slate 
 Set your preferred data path and click ‘Next’. Enter your desired credentials for the Administrator Account and then click ‘Complete Setup’.
 
 Nucleus Workstation will now download and install. There are several ways to verify the installation:
