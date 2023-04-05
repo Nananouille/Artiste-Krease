@@ -14,7 +14,7 @@
 ![This is an image](https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-1/274332014_5277218398964102_8297495416610704222_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=105&ccb=1-7&_nc_sid=c6021c&_nc_ohc=jyyMRQhAbg0AX_RPU-1&tn=JccsvCW0h8j7PqIG&_nc_ht=scontent-cdt1-1.xx&oh=00_AfAZXWpiZf2v4yy-Uk0MbTWH8lZf0OKx8lcSUzahZgfy1A&oe=63C19617)
 
 ###level  1:
-
+* Jouer a stereolux 30 mars 2023            100 nanouilles
 * Points nanouille: 400 nanouilles
 * cookiecollective partie;                  100 nanouilles
 * No School festival                        100 nanouilles
@@ -52,7 +52,45 @@ goal:
 Defis:
 
 
-log 1' omniverse 
+
+log 19 :
+
+Clock.bpm = 174
+techno
+d1 >> play("ddddd", sample=2, dur=1/8, amp=0.8)
+d2 >> play("X___X___X___X___", sample=4, dur=1/8, amp=0.8)
+d3 >> play("__:___:___:___:_", sample=2, dur=1/8, amp=0.8)
+
+dnb style 1
+d1 >> play("----", sample=2, dur=1/4, amp=0.8)
+d1.stop()
+d2 >> play("x________x_____",drive=.041, sample=1, dur=1/4, amp=.8)
+d2 >> play("x________x_____",drive=.041, sample=1, dur=1/4, amp=.8)
+d3 >> play("____O_______O___", sample=1, dur=1/4, amp=0.8)
+d3 >> play("____O__O____O___", sample=1, dur=1/4, amp=0.8,delay=.0)
+d3 >> play("_O__O_______O___", sample=1, dur=1/4, amp=0.8)
+
+d1 >> play(":______:_____:____:_____:____", sample=2, dur=1/8, amp=0.8)
+
+
+
+dnb style 2
+
+d1.stop()
+d2 >> play("x_____x_____x___x_____x_____x___", sample=4, dur=1/8, amp=0.8)
+d3 >> play("____O_____O_________O_____O_____", sample=4, dur=1/8, amp=0.8)
+d3 >> play(":______:_____:____:_____:____", sample=2, dur=1/8, amp=0.8)
+
+d4 >> play("-_-_-_-_", sample=4, dur=1/4, amp=2.8)
+d5 >> play("_-_-__-_", sample=9, dur=1/4, amp=2.8)
+d3.stop()
+Clock.clear()
+
+
+
+
+
+log 14 omniverse 
 he Launcher Clean-Up Tool will put the Omniverse Launcher back into a clean slate 
 Set your preferred data path and click ‘Next’. Enter your desired credentials for the Administrator Account and then click ‘Complete Setup’.
 
