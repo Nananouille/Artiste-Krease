@@ -51,7 +51,8 @@ goal:
 
 Defis:
 
-log 20 bespoke daw free instalation et utilisesation jupiter notebook decouverte bark tts
+log 20 bespoke daw free instalation et utilisesation jupiter notebook decouverte bark tts et son spatialisé avec three.js
+
 
 pip install notebook
 
