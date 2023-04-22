@@ -51,7 +51,11 @@ goal:
 
 Defis:
 
+log 20 bespoke daw free instalation et utilisesation jupiter notebook decouverte bark tts
 
+pip install notebook
+
+créer un python console et apeller import bark1
 
 log 19 :
 
