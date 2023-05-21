@@ -49,6 +49,12 @@ goal:
 * present on  virtual world
 
 
+log 22:
+
+play at panke gallery et zurr klappe 
+https://soundcloud.com/dekrease/ins3kt-raeve-zur-klappe?si=1d50fee4240a4be2867e817d1c32363e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+
+
 Defis:
 
 log 20 bespoke daw free instalation et utilisesation jupiter notebook decouverte bark tts et son spatialisé avec three.js
