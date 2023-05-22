@@ -48,6 +48,14 @@ goal:
 * dsp free  https://www.routenote.com/rn/welcome_page
 * present on  virtual world
 
+log 23 
+
+https://hydra.ojack.xyz/api/#functions/contrast/0
+
+https://hydra.ojack.xyz/?code=b3NjKDIwLjAzOCUyQyUyMDAuMDEyJTJDJTIwNzAwLjQxMyklMEElMDkuc2Nyb2xsWCgwLjA2NSklMEElMDkuYmxlbmQobzApJTBBJTA5LnJvdGF0ZSgxLjQ4MyklMEElMDkuY29sb3JhbWEoMC43MTcpJTBBJTA5LmNvbnRyYXN0KCgpJTIwJTNEJTNFJTIwTWF0aC5zaW4odGltZSklMjAqJTIwNSklMEElMDkubHVtYSgpJTBBJTA5Lm1vZHVsYXRlSHVlKG8wKSUwQSUwOS5zY2FsZSgxLjEzOSklMEElMDkubW9kdWxhdGUob3NjKCklMEElMDklMDkubW9kdWxhdGUodm9yb25vaSgoKSUyMCUzRCUzRSUyMGEuZmZ0JTVCMCU1RCUyMColMjAxMCklMkMlMjAwLjEpKSUwQSUwOS5vdXQoKSUzQg%3D%3D
+
+
+
 
 log 22:
 
