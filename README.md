@@ -48,6 +48,40 @@ goal:
 * dsp free  https://www.routenote.com/rn/welcome_page
 * present on  virtual world
 
+log 23  midi on sardine and making sardin working :  sardin-config  
+
+clock.tempo=170
+your_midi_port: str = 'Springbeats vMIDI4 5'
+your_midi = MidiHandler(port_name=your_midi_port)
+
+# Add the MIDI port to the session fishbowl
+bowl.add_handler(your_midi)
+
+
+_play_factory = Player._play_factory
+ 
+def n3(*args, **kwargs):
+    return _play_factory(your_midi, your_midi.send, *args, **kwargs)
+
+N3 = your_midi.send  # For sending MIDI Notes
+
+Pa * n3('C1  C4 ', p=1) # playing a chord, one note every 1/4 of a beat.
+
+ p
+Pa * n3('C1  G1 ', p='.5!2 0.25!2 .75!4 .75!4 ') 
+gg= "[41 21 4 2] [4 5 4 2] [3 1 3 1] [3 4 3 1] [4 2 4 2] [4 5 4 2]"
+gg= " [0 4 7 9 10 88 4 7 9 10 11]+20 C5@five "
+
+gg= "[41 . . 77 ] "
+
+gg="(0 1 2)<3,5>"
+
+gg= "C4 ..."
+ 
+
+Pa * n3(gg, p='4',scal='major') 
+
+
 log 23 
 sardine operationel cmd admin mode 
 
