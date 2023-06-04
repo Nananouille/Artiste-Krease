@@ -49,6 +49,18 @@ goal:
 * track on soundcloud
 * dsp free  https://www.routenote.com/rn/welcome_page
 * present on  virtual world
+log 25
+sardin wont work ... 
+tidal barely working
+
+dnb  patern is like 
+do
+  d2 $ every 8 (stutter 2 (3/16)) $ fast 1 $ s"~  ~ sn:2 ~  ~  ~  sn:2*1  ~" 
+  d1 $ s"bd ~  ~   ~  ~ bd ~ ~"
+  d3 $ fast 4 $ s "bd"  
+   
+
+
 
 log 23  midi on sardine and making sardin working :  sardin-config  
 
