@@ -59,8 +59,14 @@ do
   d1 $ s"bd ~  ~   ~  ~ bd ~ ~"
   d3 $ fast 4 $ s "bd"  
    
-
-
+strudel
+tempo(120) {
+  schedule(0, [
+    note(2, every(8, stutter(2, dur(3 / 16))), s("~  ~ sn:2 ~  ~  ~  sn:2*1  ~")),
+    note(1, s("bd ~  ~   ~  ~ bd ~ ~")),
+    note(3, fast(4, s("bd")))
+  ])
+}
 
 log 23  midi on sardine and making sardin working :  sardin-config  
 
