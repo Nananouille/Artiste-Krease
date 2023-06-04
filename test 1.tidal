@@ -1,0 +1,260 @@
+
+
+-- Set cps to be a fast house beat
+setcps (177/60/4)
+
+177/60/4
+
+-- Set cps to be a fast house beat
+setcps (120/60/4)
+
+d1 $slow 1 $ s "bd ~ sn:2 ~/2 sn:2"
+d2 $ slow 2  $s "bd ~ bd"
+
+d1 $ s"bd bd bd bd bd bd bd bd"
+
+do
+  d2 $ every 8 (stutter 2 (3/16)) $ fast 1 $ s"~  ~ sn:2 ~  ~  ~  sn:2*1  ~" 
+  d1 $ s"bd ~  ~   ~  ~ bd ~ ~"
+  d3 $ fast 4 $ s "bd"  
+  d4 $ s "woobble"
+
+  d4 $ every 8 (stutter 1  (2/16).stutter 2 (3/16))   $ s "hh*8" 
+
+  d3 silence
+
+  
+d5 $ every 3 (stutter 4 (1/16))  $ fast  8 $ s "[hh]"
+|+ speed (slow 4 $ range 1 1.5 sine)
+
+d1 $ sound "amencutup*8" # n (irand 8) #gain 0.8
+
+do
+  d2 $ s"~  ~ sn:2 ~  ~  ~ sn:2 ~"
+  d1 $ s"bd ~  ~   ~  ~ bd ~ ~"  
+  
+    $ fast 4
+    $ every 3 (rev . fast 4 )
+    $ every 8 ( slow 4 )
+    $ mask "[000 000 011 010]"
+    $ n "b5" # s "bass:7"
+    - n "<[2 3 4 2 7 5 5 6 7 3 -9 1]>"
+
+ d1  $   n "0 2 [3 4 ] [4 4] [3 4 ]"# s "bass"
+
+d9
+    $ slow 2
+    $ every 3 (rev . fast 4 )
+    $ mask "[000 000 011 010]"
+    $ n "b5" # s "glitch:4"
+    + n "<[2 3 4 2 7 5 5 6 7 3 -9 1]>"
+
+d8 $ fast 2 $ every 2 (mask "~_ _ _ _ _") $  s  "glitch:4  ~~~~~~~~~~____"
+
+
+
+
+
+d7
+    $ every 3 (rev . fast 4 )
+    $ mask "[000 000 011 010]"
+    $ n "b5" # s "koy:4"
+    + n "<[2 3 4 2 7 5 5 6 7 3 -9 1]>"
+
+
+d3 $ every 3 (stutter 4 (1/16))  $ fast  8 $ s "[hh]"
+|+ speed (slow 4 $ range 1 1.5 sine)
+
+d3 $ every 3 (stutter 4 (1/16))  $ fast  8 $ s "[glitch:4]" 
+|+ speed (slow 4 $ range 1 1.5 sine)# gain 1
+
+d2$ slowstripe "<2 3 1>"$ every 4 (stutter 2 (1/16)) $ s "[stab] [ noise:2*4]"# gain 2.1 #sustain 2.3
+
+
+
+
+d2$ slowstripe "<2 3 1>"$ every 4 (stutter 2 (1/16)) $ s "[bd] [ sn:2*4]"
+
+d2 $ fast$ chunk 4 (stutter 4 (1/16)) $ sound "bd hh sn cp"
+
+d4  $fast 4 $ s  "[hit] " # n " 0 0 1 0"  # gain (0.61)
+d1 $ s "[bd sd] hh"
+
+d2 $ s " bd:1  ~ sd [bd:3 sd:3]"# gain 1.1
+
+do
+    d1 $ slow 1  $s " bd . hh hh hh . sd/2"
+    d1 $ fast 2 $ s "bd _ _ ~  _bd_"
+    d4 $ fast 2 $ s "bass @3 bass:3 "
+
+
+d8 $s every 3(mask "0 0 0 0")  $ n "2 9 11 2" # s "rave:4"
+
+d8 $ slow 2 $ every 2 (mask "~_ _ _ _ _") $  s  "rave:16  ~~~~~~~~~~____"
+" 
+"1 2 3"
+drawLine "a b*2 d"
+
+drawLine "1 2 3 "
+
+d6 $ fast 2$ struct (every 3 inv "t f t*2 f") $ sound "cp"
+
+d5 $ s "moog" # n "1 2 3"
+d5 $fast 4 $ s "moog" # n "<0 1 2>"
+
+
+d3 $ s "moog" # n "<0 1 2>" # legato 1 # cutoffbus 1 (segment 32 $ range 200 2400 $ saw) # resonance 0.2
+
+
+industrial
+
+d2 $ every 4 (fast 2) $ s "breaks157" # n "2 2 4 3"
+
+
+d3 $ fast 2   $ every 4 (slow 2)$ note "c a f e"
+# s "supermandolin"
++  down "[ -2 2 3 7]"
+d1 silent
+
+
+
+
+d1
+    $ slow 2
+    $ mask "[000 000 000 000]"
+    $ note "b5" # "synth"
+    |+ up "[3 2 3 5 6 6  7]"
+
+
+    
+  d2 $ n "0 1 2 [3 5]" # sound "bd:5"
+  +| n "<[4 5 3 2] [5 4 3] [6 5]>"
+
+    
+
+
+let sl=  slow 3
+
+d2 $sl $ s "[bd*2 sn]" 
+
+ $ n "2 9 11 3"  
+
+
+do
+    d1 $fast 4  $ n " c'maj e'min" # s "click" # gain ".4"
+    d2 $ note "c'maj e'min" # s "gtr"
+    d3 $ sound "bd:6  sn:3"# gain "2.7"
+    d4 $fast 4 $ sound "bd:5 " #gain  "2"   
+    d5 $ every 3 (  solo 1   ) $ fast 16 $ s "hh" #gain "1"
+
+d5 silence
+  
+
+
+
+do
+    d1 $ sound "bd sn hh"
+    d2 $ sound "bd*2"
+
+d1 $ slowSqueeze "<8 4>" $ s "bd"
+d2 $slow  "<2 1>" $ sound "bd"
+d1 $ fastSqueeze "1 2 " $ s "bd"
+d1 $ sound "bd sn [hh cp]"
+d1 $ fastSqueeze "5 " $ s "bd ~"
+d2 $fast 2  $ s "bd /2 ~ bd/4 ~ "
+
+d1 $ n (run 4) # sound "arpy"
+d1 $ sound "[voodoo voodoo:3, arpy arpy:e arpy:4]"
+
+d1 $ sound "bd(3,8 )"
+d1 $ sound "bd(3,8) sn*2"
+d1 $ sometimes (# speed "2") $ sound "bd(3,8) sn(5,8)"
+
+
+d3 $fast 4$ sound "~sn:2 ~ sn:2/2 "
+
+d1 $fast 2 $ s "bd"
+d2 $fast 1 $ s "~~ bd~"
+d3 $ fast 1 $ s "sn:2~~~"
+d4 $ fast 2 $ s "~ sn:2/2.5"
+
+do
+  d1 $ sound "bass:3 sn:2"
+
+d1 $ s "[bd bd*2 bd bd*2 ,hh:7*8,rs:7*8,perc:4*[8,3], bass]"
+
+  d2 $ sound "bd"
+
+do 
+  d1 $ s  "bd sn hh"
+  d2 $ s  "bd*2"
+
+hush
+
+
+-- Make a step go 'faster', so it repeats itself within its step:
+
+d1 $ sound "hi lo*3"
+
+
+
+d2 $ every 4 (hurry 2) $ s "bd:2__ hh:5 bd:2 ~ hh:5"
+d2 $ every 4 (hurry 2) $ s "bass" # n "2 2 4 3"
+d1 $ s "break # gain 1.1
+
+d1 $ sound "kurt:4 kurt:4"
+
+
+d1 $ n "0 2 [3 5] [4 7]" # sound "cpu"
+
+
+ d2 $ slow "2 1" $  n "1(3,8?)   8*8" # sound "bd:5"
+  # squiz 5
+  # cps 0.5
+
+
+  d2 $ n "0 1 2 [3 5]" # sound "bd:5"
+  |+| n "<[4 5 3 2] [5 4 3] [6 5]>"
+
+  # squiz 2
+
+  d1 $ n "0(5,8) [4 1]" # sound "drum"
+    # squiz "0 2 5"
+    |+ squiz "<0 2 3>"
+
+d1 $ fast 2 $ arp "up" $ n "e'min'6" # s "superchip" # octave 2
+hush
+d1 $ jux' [id,rev,(# speed 2)] $ every 2 ("<0.25 0.125 0.5>" <~) $ sound "bd*2 [[~ lt] sn:3] lt:1 [ht mt*2]"
+  # squiz "<1 2.5 2>"
+  # room (slow 4 $ range 0 0.2 saw)
+  # sz 0.5
+  # orbit 1
+
+  d1 $ speed "1*2 2*2 4*6" # sound "jungbass:6"
+d1 $ s "[Kick, OpenHat:1] [Kick, Snare, OpenHat:2] [Kick, OpenHat:1] [Kick, Snare, OpenHat:2]"
+
+  d1 $ every 2 ("<0.25 0.125 0.5>" <~) $ sound "bd*2 [[~ lt] sn:3] lt:1 [ht mt*2]"
+
+  d1 $ rev $ chunk  8 (hurry 2) $ n "h1 1 [3 2] [2 ~ 2]" # sound "feel" # speed 1.5
+
+  d1 $ d1 $ s "bd*8" # pan (slow 4 $ sine)
+
+
+  d3 $ rev $ s "moog*2" # n "<0 1 2>" # legato 1 # cutoff (range 200 240 $ saw) # resonance 0.2
+d3 $ s "moog" # n "<0 1 2>" # legato 1 # cutoffbus 1 (segment 32 $ range 200 2400 $ saw) # resonance 0.2
+d4 $ n "12 1? 12    1*4" # sound "arpy:1 arpy:3  "|-note 14
+
+d5 $ sound "bd(2,4)"
+
+d4 $ fast 2$ every 8 (fast 2) $ every 4 (slow 2)$ note "c a f e"
+# s "supermandolin"
++  down "[ -2 2 3 7] "
+
+d6 $ note "0 9 5 4 0 9 5 4" # s "supermandolin"  # speed  4.5 |- note 2
+
+p "romeo" $ s "bd bd"
+once $ s "trump"
+
+hush
+
+d4 $ silence
