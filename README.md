@@ -49,6 +49,20 @@ goal:
 * track on soundcloud
 * dsp free  https://www.routenote.com/rn/welcome_page
 * present on  virtual world
+
+
+
+
+log 26 strudel can directly talk to ableton  isnt that great ! 
+"<0 6 [0 6]>"
+.scale('D minor')
+.legato(.5)
+.echo(4, 1/8, .5)
+.note().midi('loopMIDI Port 3')
+.pianoroll()
+
+
+
 log 25
 sardin wont work ... 
 tidal barely working
