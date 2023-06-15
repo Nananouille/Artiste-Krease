@@ -51,7 +51,68 @@ goal:
 * present on  virtual world
 
 
+log 27 
 
+strudel 
+blender upbge
+
+
+####"##rise in strudel : 
+
+let gg= saw.range(0,28).slow(13)
+
+note(" [ 52*8]").s ("oh").fast(gg).add(gg)
+    .clip(1).release(.5).gain("2")
+
+.pianoroll()
+
+
+#########  use of if in strudel 
+
+let intro = 0;
+
+let run = () => {
+  if(intro) {
+    return s("bd sd")
+  }
+  return s("bd*2 sd, hh*4")
+}
+
+run()
+
+##########"" mask 
+stack
+
+(
+  s("bd rim").mask("<1!4 0!8>"),
+  s("bd*2,~ sd, hh*4").mask("<0!4 1!8>")
+)
+arrange
+let intro = stack(
+  s("bd")
+)
+
+let chorus = stack(
+  s("bd*2, rim, hh*4")
+)
+
+arrange(
+  [4, intro],
+  [8, chorus],
+)
+
+let intro = stack(
+  s("bd")
+)
+
+let chorus = stack(
+  s("bd*2, rim, hh*4")
+)
+
+arrange(
+  [4, intro],
+  [8, chorus],
+)
 
 log 26 strudel can directly talk to ableton  isnt that great ! 
 "<0 6 [0 6]>"
