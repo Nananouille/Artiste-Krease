@@ -53,7 +53,7 @@ curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 au final  en local : npm install code-server --prefix="C:\Users\vjbli\AppData\Roaming\npm\node_modules\npm\node_modules" 
 
 et donc  :  npm install code-server --prefix="C:\Users\vjbli\AppData\Roaming\npm\node_modules\npm" --unsafe-perm
- 
+ et voila la solution :  npm install --global code-server --unsafe-perm
  ![image](https://github.com/Nananouille/Artiste-Krease/assets/8178673/33b340b6-b892-4ef9-bce4-b0b186da09bf)
 
  
