@@ -49,7 +49,8 @@ goal:
 -
  log 30 
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
- ![image](https://github.com/Nananouille/Artiste-Krease/assets/8178673/3e102eb7-cafb-4102-96d8-491d31bc1b51)
+ no need just npm:  npm install --global code-server --unsafe-perm 
+ 
  nfc tangigible music done with osc nfctool that send an url with the osc info with the help of a server  start by a bat file
  
 
