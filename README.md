@@ -60,6 +60,14 @@ et donc  :  npm install code-server --prefix="C:\Users\vjbli\AppData\Roaming\npm
 
  
  nfc tangigible music done with osc nfctool that send an url with the osc info with the help of a server  start by a bat file
+
+
+ log 30
+rogue zone setup upbridge et vscode et code-server on phone  asio to output the sound on many output
+internet captif pour interagir
+nfc card pour changer les sons !
+
+
  
 
 * bar   livebar x
