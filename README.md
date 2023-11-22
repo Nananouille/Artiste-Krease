@@ -15,6 +15,8 @@
 
 ###level  1:
 jouer a paris au stock 
+* Jouer pour hoverkill  festival
+* jouer pour laCure 
 * Jouer a Atelier du  vents
 * Jouer blokaus 
 * Jouer a Amaze Festival panke gallery berlin  mai 6            100 nanouilles
@@ -40,7 +42,7 @@ jouer a paris au stock
 
 
 goal:
-* festival x
+* festival x  Amaze  hoverkill  Noschool
 * Event :
 -
 -
@@ -61,6 +63,10 @@ et donc  :  npm install code-server --prefix="C:\Users\vjbli\AppData\Roaming\npm
  
  nfc tangigible music done with osc nfctool that send an url with the osc info with the help of a server  start by a bat file
 
+
+
+log 31
+many sardine/ableton strategy in place  /  
 
  log 30
 rogue zone setup upbridge et vscode et code-server on phone  asio to output the sound on many output
